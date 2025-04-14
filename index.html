@@ -11,27 +11,38 @@
     </head>
     <body>
         <header class="header">
+            <nav class="header__nav">
             <ul class="header__list">
-                <li class="header__list-item">
-                    <a href="#0"><article>главная</article></a>
+                <li class="header__list-item no-underline">
+                    <a href="#0">главная</a>
                 </li>
                 <li class="header__list-item">
-                    <a href="#0"><article>посмотреть лоты</article></a>
+                    <a href="#0">посмотреть лоты</a>
                 </li>
                 <li class="header__list-item">
-                    <a href="#0"><article>об аукционе</article></a>
+                    <a href="#0">об аукционе</a>
                 </li>
             </ul>
+        </nav>
             <img class="header__logo" src="/images/logo-black.svg" alt="logo" />
             <address class="header__address">
-                <a href="tel:+9 999 555 5555"><article>+9 999 555 5555</article></a>
-                <a href="mailto:info@sobaka.ge"><article>info@sobaka.ge</article></a>
-                <article>наб. Принсенграхт 263- 265, Амстердам</article>
+                <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+                <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+                <p>наб. Принсенграхт 263- 265, Амстердам</p>
             </address>
         </header>
-        <main>
-            <section></section>
-            <section></section>
+        <main class="main">
+            <section class="cover">
+                <div class="overlay"></div>
+            <h1 class="cover__title"><span class="cover__title-top">Оно</span><span class="cover__title-center">Тебе</span><span class="cover__title-bottom">Надо</span></h1>
+            <div class="cover__description ">
+                <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+                <button class="cover__description-btn">Сделать ставку</button>
+            </div>
+            </section>
+            <section class="lots">
+                <h1 class="lots__title">Лоты</h1>
+            </section>
             <section></section>
         </main>
         <footer></footer>
