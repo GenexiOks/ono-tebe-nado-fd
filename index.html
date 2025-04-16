@@ -13,7 +13,7 @@
 		<header class="header">
 			<nav class="header__nav nav">
 				<ul class="header__list">
-					<li class="header__list-item active">
+					<li class="header__list-item header__item_no-bullet">
 						<a href="#0">главная</a>
 					</li>
 					<li class="header__list-item">
@@ -24,8 +24,11 @@
 					</li>
 				</ul>
 			</nav>
-			<a href="#0"
-				><img class="header__logo" src="/images/logo-black.svg" alt="logo"
+			<a class="header__logo-link" href="#0"
+				><img
+					class="header__logo"
+					src="/images/logo-black.svg"
+					alt="Логотип аукциона Оно тебе надо"
 			/></a>
 			<address class="header__address address">
 				<a href="tel:+99995555555">+9 999 555 5555</a>
@@ -45,28 +48,28 @@
 					<p class="cover__description-text">
 						Аукцион вещей, в которые никто не верил
 					</p>
-					<button class="cover__description-btn">Сделать ставку</button>
+					<button class="cover__bet-button">Сделать ставку</button>
 				</div>
 			</section>
 			<section class="lots">
-				<h1 class="lots__title">Лоты</h1>
+				<h2 class="lots__title">Лоты</h2>
 				<ul class="lots__lots-list">
-					<li class="lots__card card-film">
+					<li class="card card__type-film">
 						<div class="overlay"></div>
-						<a href="#0" class="lots__lot-link"
+						<a href="#0" class="card__link"
 							>Фильм режиссёра, который бросил киношколу</a
 						>
-						<article class="lots__about">
+						<article class="card__about">
 							Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
 							ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
 						</article>
 					</li>
-					<li class="lots__card card-book">
+					<li class="card card__type-book">
 						<div class="overlay"></div>
-						<a href="#0" class="lots__lot-link"
+						<a href="#0" class="card__link"
 							>Книга, где описан один скучный день из жизни рекламного агента</a
 						>
-						<article class="lots__about">
+						<article class="card__about">
 							Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
 							переходами на древнеанглийский. В ней одновременно рассказывается
 							о 16 июня 1904 года и об истории литературы, начиная с античных
@@ -74,12 +77,12 @@
 							бы вы поставили на «Улисса» Джеймса Джойса?
 						</article>
 					</li>
-					<li class="lots__card card-painting">
+					<li class="card card__type-picture">
 						<div class="overlay"></div>
-						<a href="#0" class="lots__lot-link"
+						<a href="#0" class="card__lot-link"
 							>Картина, которую повторит даже 5-летний сын маминой подруги</a
 						>
-						<article class="lots__about">
+						<article class="card__about">
 							Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
 							похожее на инфузорию-туфельку. Никаких полей, лесов, котиков...
 							Сколько бы вы на такое поставили, если бы не знали, что это — одна
@@ -87,18 +90,18 @@
 						</article>
 					</li>
 				</ul>
-				<a class="lots__more-link">посмотреть больше</a>
+				<a href="#0" class="lots__more-link">посмотреть больше</a>
 			</section>
 			<section class="about">
 				<div class="about__logo">
 					<img
 						class="about__logo-image"
 						src="/images/logo-white.svg"
-						alt="logo"
+						alt="Логотип аукциона Оно тебе надо"
 					/>
 				</div>
 				<div class="about__about-block">
-					<h1 class="about__title">Об аукционе</h1>
+					<h3 class="about__title">Об аукционе</h3>
 					<p class="about__text">
 						Здесь вы не встретите очередное пафосное собрание невероятно
 						дорогого антиквариата. Наши лоты вообще не должны были попасть

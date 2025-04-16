@@ -1,10 +1,3 @@
-/* место для вашего кода */
-
-a {
-	text-decoration: none;
-	border-bottom: 1px solid black;
-}
-
 /* -------------------Header-------------------- */
 
 .header {
@@ -12,7 +5,7 @@ a {
 	height: 293px;
 	display: grid;
 	grid-auto-flow: column;
-	padding: 92px 50px 96px;
+	padding: 90px 50px 97px;
 	grid-template-columns: 1fr min-content 1fr;
 	align-items: center;
 	justify-items: center;
@@ -22,9 +15,7 @@ nav {
 	justify-self: start;
 }
 
-.active a,
-.active {
-	border: none;
+.header__item_no-bullet {
 	list-style: none;
 }
 
@@ -32,6 +23,7 @@ nav {
 	display: flex;
 	gap: 33px;
 	list-style: circle;
+	text-underline-offset: 2px;
 }
 
 .header__logo {
@@ -123,7 +115,7 @@ nav {
 	word-spacing: 18.5px;
 }
 
-.cover__description-btn {
+.cover__bet-button {
 	background: transparent;
 	width: 256px;
 	height: 51px;
@@ -138,7 +130,7 @@ nav {
 
 .lots {
 	width: 1052px;
-	height: 723px;
+	height: 100%;
 	margin: 181px 24px 120px;
 }
 
@@ -159,7 +151,7 @@ nav {
 	flex-wrap: wrap;
 }
 
-.lots__card {
+.card {
 	position: relative;
 	width: 334px;
 	min-height: 596px;
@@ -173,34 +165,34 @@ nav {
 	justify-content: space-between;
 }
 
-.lots__card a {
+.card a {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 22px;
 	text-underline-offset: 3px;
 }
 
-.lots__card a,
-.lots__card article {
+.card a,
+.card article {
 	position: relative; /*Задаю z-index контентку карточки*/
 	z-index: 3;
 }
 
-.lots__about {
+.card__about {
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 1.2em;
 }
 
-.card-film {
+.card__type-film {
 	background-image: url(/images/card-lot-01.jpg);
 }
 
-.card-book {
+.card__type-book {
 	background-image: url(/images/card-lot-02.jpg);
 }
 
-.card-painting {
+.card__type-picture {
 	background-image: url(/images/card-lot-03.jpg);
 }
 
@@ -208,7 +200,7 @@ nav {
 	margin-left: 40px;
 	font-size: 20px;
 	font-style: normal;
-	border-bottom: 2px solid black;
+	text-underline-offset: 5px;
 }
 
 /* ----------About---------- */
@@ -230,7 +222,7 @@ nav {
 	width: 240px;
 	height: 240px;
 	background-color: black;
-	border-radius: 50em;
+	border-radius: 50%;
 	justify-self: center;
 	margin-top: 34px;
 }
@@ -282,6 +274,7 @@ nav {
 .footer__menu-list {
 	list-style: none;
 	text-align: center;
+	text-underline-offset: 4px;
 }
 
 .footer__social-list {
